@@ -43,9 +43,9 @@ public class xbox_live {
 	}
 	@Test
 	public void recentgames() throws InterruptedException {
-		System.out.println("Validating first four games of Duskamo");
+		System.out.println("Validating first four games of BlazingArrows24");
 		WebElement search = driver.findElement(By.xpath("//*[@id=\"navbarSupportedContent\"]/form/input"));
-		search.sendKeys("Duskamo");
+		search.sendKeys("BlazingArrows24");
 		Thread.sleep(500);
 		WebElement sbutton = driver.findElement(By.xpath("//*[@id=\"navbarSupportedContent\"]/form/button"));
 		Thread.sleep(1000);

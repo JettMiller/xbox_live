@@ -2,36 +2,36 @@
 <testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="19739" started-at="2022-01-20T15:46:03 CST" finished-at="2022-01-20T15:46:23 CST">
+  <suite name="Default suite" duration-ms="15390" started-at="2022-01-26T13:01:01 CST" finished-at="2022-01-26T13:01:17 CST">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="19739" started-at="2022-01-20T15:46:03 CST" finished-at="2022-01-20T15:46:23 CST">
-      <class name="util.xbox_live">
-        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:util.xbox_live@1372ed45]" name="beforeMethod" is-config="true" duration-ms="3903" started-at="2022-01-20T15:46:03 CST" finished-at="2022-01-20T15:46:07 CST">
+    <test name="Default test" duration-ms="15390" started-at="2022-01-26T13:01:01 CST" finished-at="2022-01-26T13:01:17 CST">
+      <class name="util.live_test">
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:util.live_test@1372ed45]" name="beforeMethod" is-config="true" duration-ms="5453" started-at="2022-01-26T13:01:01 CST" finished-at="2022-01-26T13:01:07 CST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="recentgames()[pri:0, instance:util.xbox_live@1372ed45]" name="recentgames" duration-ms="7969" started-at="2022-01-20T15:46:07 CST" finished-at="2022-01-20T15:46:15 CST">
+        <test-method status="PASS" signature="recentgames()[pri:0, instance:util.live_test@1372ed45]" name="recentgames" duration-ms="5841" started-at="2022-01-26T13:01:07 CST" finished-at="2022-01-26T13:01:13 CST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- recentgames -->
-        <test-method status="PASS" signature="afterMethod()[pri:0, instance:util.xbox_live@1372ed45]" name="afterMethod" is-config="true" duration-ms="1059" started-at="2022-01-20T15:46:15 CST" finished-at="2022-01-20T15:46:16 CST">
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:util.live_test@1372ed45]" name="afterMethod" is-config="true" duration-ms="879" started-at="2022-01-26T13:01:13 CST" finished-at="2022-01-26T13:01:14 CST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:util.xbox_live@1372ed45]" name="beforeMethod" is-config="true" duration-ms="5587" started-at="2022-01-20T15:46:16 CST" finished-at="2022-01-20T15:46:21 CST">
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:util.live_test@1372ed45]" name="beforeMethod" is-config="true" duration-ms="2223" started-at="2022-01-26T13:01:14 CST" finished-at="2022-01-26T13:01:16 CST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="top5()[pri:0, instance:util.xbox_live@1372ed45]" name="top5" duration-ms="173" started-at="2022-01-20T15:46:21 CST" finished-at="2022-01-20T15:46:21 CST">
+        <test-method status="PASS" signature="top5()[pri:0, instance:util.live_test@1372ed45]" name="top5" duration-ms="167" started-at="2022-01-26T13:01:16 CST" finished-at="2022-01-26T13:01:16 CST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- top5 -->
-        <test-method status="PASS" signature="afterMethod()[pri:0, instance:util.xbox_live@1372ed45]" name="afterMethod" is-config="true" duration-ms="1025" started-at="2022-01-20T15:46:21 CST" finished-at="2022-01-20T15:46:23 CST">
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:util.live_test@1372ed45]" name="afterMethod" is-config="true" duration-ms="804" started-at="2022-01-26T13:01:16 CST" finished-at="2022-01-26T13:01:17 CST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-      </class> <!-- util.xbox_live -->
+      </class> <!-- util.live_test -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
