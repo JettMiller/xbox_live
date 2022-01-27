@@ -93,5 +93,6 @@ public class live_test {
 		Assert.assertEquals(rgame2.getText(), game2);
 		Assert.assertEquals(rgame3.getText(), game3);
 		Assert.assertEquals(rgame4.getText(), game4);
+		
 	}
 }
