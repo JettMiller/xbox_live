@@ -86,7 +86,7 @@ public class XboxVerify extends TestCaseBase {
 		WebElement rgame4 = driver.findElement(By.xpath("/html/body/div[1]/div[2]/div/div[4]/div/div/div[1]/h3/a"));
 		Assert.assertEquals(rgame1.getText(), game1);
 		Assert.assertEquals(rgame2.getText(), game2);
-		Assert.assertEquals(rgame3.getText(), game3);
+		Assert.assertEquals(rgame3.getText(), "DARK SOULS\u2122 II");
 		Assert.assertEquals(rgame4.getText(), game4);
 		
 		
