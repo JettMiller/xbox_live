@@ -84,11 +84,11 @@ public class XboxVerify extends TestCaseBase {
 		WebElement rgame2 = driver.findElement(By.xpath("/html/body/div[1]/div[2]/div/div[2]/div/div/div[1]/h3/a"));
 		WebElement rgame3 = driver.findElement(By.xpath("/html/body/div[1]/div[2]/div/div[3]/div/div/div[1]/h3/a"));
 		WebElement rgame4 = driver.findElement(By.xpath("/html/body/div[1]/div[2]/div/div[4]/div/div/div[1]/h3/a"));
-		soft.assertEquals(rgame1.getText(), game1);
-		soft.assertEquals(rgame2.getText(), game2);
-		soft.assertEquals(rgame3.getText(), game3);
-		soft.assertEquals(rgame4.getText(), game4);
+		Assert.assertEquals(rgame1.getText(), game1);
+		Assert.assertEquals(rgame2.getText(), game2);
+		Assert.assertEquals(rgame3.getText(), game3);
+		Assert.assertEquals(rgame4.getText(), game4);
 		
-		soft.assertAll();
+		
 	}
 }

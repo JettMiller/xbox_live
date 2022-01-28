@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="23.866" tests="2" errors="0" skipped="0" failures="1">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="25.776" tests="2" errors="0" skipped="0" failures="1">
   <properties>
     <property name="PROCESSOR_ARCHITECTURE" value="AMD64"/>
     <property name="file.encoding.pkg" value="sun.io"/>
@@ -30,24 +30,24 @@
     <property name="PROCESSOR_IDENTIFIER" value="Intel64 Family 6 Model 141 Stepping 1, GenuineIntel"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="LOCALAPPDATA" value="C:\Users\Jett.Miller\AppData\Local"/>
-    <property name="RUN_CHANGES_DISPLAY_URL" value="http://localhost:8080/job/xbox_live/35/display/redirect?page=changes"/>
+    <property name="RUN_CHANGES_DISPLAY_URL" value="http://localhost:8080/job/xbox_live/36/display/redirect?page=changes"/>
     <property name="user.timezone" value="America/Chicago"/>
     <property name="user.script" value=""/>
     <property name="path.separator" value=";"/>
     <property name="NUMBER_OF_PROCESSORS" value="16"/>
-    <property name="BUILD_TAG" value="jenkins-xbox_live-35"/>
+    <property name="BUILD_TAG" value="jenkins-xbox_live-36"/>
     <property name="file.encoding" value="Cp1252"/>
-    <property name="sun.java.command" value="jenkins.maven3.agent.Maven35Main C:\Users\Jett.Miller\.jenkins\tools\hudson.tasks.Maven_MavenInstallation\Maven3 C:\Users\Jett.Miller\.jenkins\war\WEB-INF\lib\remoting-4.11.2.jar C:\Users\Jett.Miller\.jenkins\plugins\maven-plugin\WEB-INF\lib\maven35-interceptor-1.13.jar C:\Users\Jett.Miller\.jenkins\plugins\maven-plugin\WEB-INF\lib\maven3-interceptor-commons-1.13.jar 62631"/>
+    <property name="sun.java.command" value="jenkins.maven3.agent.Maven35Main C:\Users\Jett.Miller\.jenkins\tools\hudson.tasks.Maven_MavenInstallation\Maven3 C:\Users\Jett.Miller\.jenkins\war\WEB-INF\lib\remoting-4.11.2.jar C:\Users\Jett.Miller\.jenkins\plugins\maven-plugin\WEB-INF\lib\maven35-interceptor-1.13.jar C:\Users\Jett.Miller\.jenkins\plugins\maven-plugin\WEB-INF\lib\maven3-interceptor-commons-1.13.jar 49567"/>
     <property name="HUDSON_URL" value="http://localhost:8080/"/>
     <property name="JENKINS_SERVER_COOKIE" value="9237d61056df9cbc"/>
-    <property name="EXECUTOR_NUMBER" value="1"/>
+    <property name="EXECUTOR_NUMBER" value="0"/>
     <property name="Path" value="C:\Program Files\Java\jdk1.8.0_311/bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\windows\system32;C:\windows;C:\windows\System32\Wbem;C:\windows\System32\WindowsPowerShell\v1.0\;C:\windows\System32\OpenSSH\;C:\Program Files (x86)\Pulse Secure\VC142.CRT\X64\;C:\Program Files (x86)\Pulse Secure\VC142.CRT\X86\;C:\Program Files\Git\cmd;C:\Program Files\nodejs\;C:\Program Files\Java\jdk1.8.0_311\bin C:\Program Files\apache-maven-3.8.4\bin;C:\Users\Jett.Miller\AppData\Roaming\npm;C:\Users\Jett.Miller\AppData\Local\Programs\Microsoft VS Code\bin"/>
-    <property name="GIT_COMMIT" value="858476d4a989f55a894d5095232d5bfc9a1c710e"/>
+    <property name="GIT_COMMIT" value="cd299c915ca1547856a5e905a1eb29997320e978"/>
     <property name="java.io.tmpdir" value="C:\Users\JETT~1.MIL\AppData\Local\Temp\"/>
     <property name="APPDATA" value="C:\Users\Jett.Miller\AppData\Roaming"/>
     <property name="user.language" value="en"/>
     <property name="line.separator" value="&#10;"/>
-    <property name="BUILD_URL" value="http://localhost:8080/job/xbox_live/35/"/>
+    <property name="BUILD_URL" value="http://localhost:8080/job/xbox_live/36/"/>
     <property name="M2_HOME" value="C:\Users\Jett.Miller\.jenkins\tools\hudson.tasks.Maven_MavenInstallation\Maven3"/>
     <property name="=C:" value="C:\Users\Jett.Miller\Downloads"/>
     <property name="ZES_ENABLE_SYSMAN" value="1"/>
@@ -56,7 +56,7 @@
     <property name="sun.desktop" value="windows"/>
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
     <property name="CI" value="true"/>
-    <property name="BUILD_DISPLAY_NAME" value="#35"/>
+    <property name="BUILD_DISPLAY_NAME" value="#36"/>
     <property name="OS" value="Windows_NT"/>
     <property name="guice.disable.misplaced.annotation.check" value="true"/>
     <property name="HUDSON_SERVER_COOKIE" value="9237d61056df9cbc"/>
@@ -71,7 +71,7 @@
     <property name="os.name" value="Windows 10"/>
     <property name="java.specification.vendor" value="Oracle Corporation"/>
     <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
-    <property name="BUILD_NUMBER" value="35"/>
+    <property name="BUILD_NUMBER" value="36"/>
     <property name="maven3.interceptor" value="C:\Users\Jett.Miller\.jenkins\plugins\maven-plugin\WEB-INF\lib\maven35-interceptor-1.13.jar"/>
     <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_311\bin;C:\windows\Sun\Java\bin;C:\windows\system32;C:\windows;C:\Users\Jett.Miller\.jenkins\tools\hudson.tasks.Maven_MavenInstallation\Maven3/bin;C:\Program Files\Java\jdk1.8.0_311/bin;C:\Program Files\Java\jdk1.8.0_311/bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\windows\system32;C:\windows;C:\windows\System32\Wbem;C:\windows\System32\WindowsPowerShell\v1.0\;C:\windows\System32\OpenSSH\;C:\Program Files (x86)\Pulse Secure\VC142.CRT\X64\;C:\Program Files (x86)\Pulse Secure\VC142.CRT\X86\;C:\Program Files\Git\cmd;C:\Program Files\nodejs\;C:\Program Files\Java\jdk1.8.0_311\bin C:\Program Files\apache-maven-3.8.4\bin;C:\Users\Jett.Miller\AppData\Roaming\npm;C:\Users\Jett.Miller\AppData\Local\Programs\Microsoft VS Code\bin;."/>
     <property name="HOMEDRIVE" value="C:"/>
@@ -79,12 +79,12 @@
     <property name="POM_ARTIFACTID" value="PerficientGDCSeleniumFrameworkMaven"/>
     <property name="java.class.version" value="52.0"/>
     <property name="JOB_URL" value="http://localhost:8080/job/xbox_live/"/>
-    <property name="GIT_PREVIOUS_COMMIT" value="ea4f3d77cb2686a3736cac943161112159299409"/>
+    <property name="GIT_PREVIOUS_COMMIT" value="858476d4a989f55a894d5095232d5bfc9a1c710e"/>
     <property name="OneDrive" value="C:\Users\Jett.Miller\OneDrive"/>
     <property name="GIT_BRANCH" value="origin/take2"/>
-    <property name="RUN_DISPLAY_URL" value="http://localhost:8080/job/xbox_live/35/display/redirect"/>
+    <property name="RUN_DISPLAY_URL" value="http://localhost:8080/job/xbox_live/36/display/redirect"/>
     <property name="JENKINS_HOME" value="C:\Users\Jett.Miller\.jenkins"/>
-    <property name="BUILD_ID" value="35"/>
+    <property name="BUILD_ID" value="36"/>
     <property name="TEMP" value="C:\Users\JETT~1.MIL\AppData\Local\Temp"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_311\jre\bin"/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
@@ -97,7 +97,7 @@
     <property name="ProgramFiles(x86)" value="C:\Program Files (x86)"/>
     <property name="PATH+MAVEN" value="C:\Users\Jett.Miller\.jenkins\tools\hudson.tasks.Maven_MavenInstallation\Maven3/bin"/>
     <property name="USERDOMAIN_ROAMINGPROFILE" value="PERFICIENT"/>
-    <property name="RUN_ARTIFACTS_DISPLAY_URL" value="http://localhost:8080/job/xbox_live/35/display/redirect?page=artifacts"/>
+    <property name="RUN_ARTIFACTS_DISPLAY_URL" value="http://localhost:8080/job/xbox_live/36/display/redirect?page=artifacts"/>
     <property name="PROMPT" value="$P$G"/>
     <property name="java.vm.specification.version" value="1.8"/>
     <property name="JAVA_HOME" value="C:\Program Files\Java\jdk1.8.0_311"/>
@@ -128,7 +128,7 @@
     <property name="OneDriveConsumer" value="C:\Users\Jett.Miller\OneDrive"/>
     <property name="WORKSPACE" value="C:\Users\Jett.Miller\.jenkins\workspace\xbox_live"/>
     <property name="ComSpec" value="C:\windows\system32\cmd.exe"/>
-    <property name="RUN_TESTS_DISPLAY_URL" value="http://localhost:8080/job/xbox_live/35/display/redirect?page=tests"/>
+    <property name="RUN_TESTS_DISPLAY_URL" value="http://localhost:8080/job/xbox_live/36/display/redirect?page=tests"/>
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="SystemRoot" value="C:\windows"/>
     <property name="CommonProgramFiles" value="C:\Program Files\Common Files"/>
@@ -148,33 +148,35 @@
     <property name="sun.arch.data.model" value="64"/>
     <property name="GIT_URL" value="https://github.com/JettMiller/xbox_live.git/"/>
   </properties>
-  <testcase name="gtsearch" classname="xbox.testcases.XboxVerify" time="10.831">
-    <failure message="expected [DARK SOULSâ„¢ II] but found [DARK SOULS™ II]" type="java.lang.AssertionError">java.lang.AssertionError: expected [DARK SOULSâ„¢ II] but found [DARK SOULS™ II]
-	at xbox.testcases.XboxVerify.gtsearch(XboxVerify.java:84)
+  <testcase name="gtsearch" classname="xbox.testcases.XboxVerify" time="9.701">
+    <failure message="The following asserts failed:&#10;null" type="java.lang.AssertionError">java.lang.AssertionError: 
+The following asserts failed:
+null
+	at xbox.testcases.XboxVerify.gtsearch(XboxVerify.java:92)
 </failure>
     <system-out><![CDATA[Warning: Not found test data file testdata_XboxVerify.properties
 Validating first four games of Duskamo
 ]]></system-out>
-    <system-err><![CDATA[Jan 28, 2022 11:47:38 AM xbox.testcases.XboxVerify setUpBrowser
+    <system-err><![CDATA[Jan 28, 2022 3:26:45 PM xbox.testcases.XboxVerify setUpBrowser
 INFO: running TEST Case:xbox.testcases.XboxVerify
-Jan 28, 2022 11:47:38 AM xbox.testcases.XboxVerify initParams
+Jan 28, 2022 3:26:45 PM xbox.testcases.XboxVerify initParams
 INFO: onGrid=false
-Jan 28, 2022 11:47:38 AM xbox.testcases.XboxVerify initParams
+Jan 28, 2022 3:26:45 PM xbox.testcases.XboxVerify initParams
 INFO: browserFlag=chrome
-Starting ChromeDriver 96.0.4664.45 (76e4c1bb2ab4671b8beba3444e61c0f17584b2fc-refs/branch-heads/4664@{#947}) on port 21279
+Starting ChromeDriver 96.0.4664.45 (76e4c1bb2ab4671b8beba3444e61c0f17584b2fc-refs/branch-heads/4664@{#947}) on port 17459
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
 ChromeDriver was started successfully.
-[1643392060.053][WARNING]: This version of ChromeDriver has not been tested with Chrome version 97.
-Jan 28, 2022 11:47:40 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+[1643405206.573][WARNING]: This version of ChromeDriver has not been tested with Chrome version 97.
+Jan 28, 2022 3:26:46 PM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: W3C
-Jan 28, 2022 11:47:40 AM xbox.testcases.XboxVerify setDefaultTestData
+Jan 28, 2022 3:26:46 PM xbox.testcases.XboxVerify setDefaultTestData
 INFO: Setting...filename=testdata_XboxVerify.properties
-Jan 28, 2022 11:47:40 AM util.LogWebDriverEventListener beforeNavigateTo
+Jan 28, 2022 3:26:46 PM util.LogWebDriverEventListener beforeNavigateTo
 INFO: WebDriver navigating to:'https://www.xboxgamertag.com/leaderboards'
-Jan 28, 2022 11:47:48 AM util.LogWebDriverEventListener beforeClickOn
-INFO: WebDriver clicking on[[ChromeDriver: chrome on ANY (9b2aea60f5c9722f6860dddc8a1aa55f)] -> xpath: //*[@id="navbarSupportedContent"]/form/button]
+Jan 28, 2022 3:26:53 PM util.LogWebDriverEventListener beforeClickOn
+INFO: WebDriver clicking on[[ChromeDriver: chrome on ANY (060e275003fa1fa7e13c7c4519adb88c)] -> xpath: //*[@id="navbarSupportedContent"]/form/button]
 ]]></system-err>
   </testcase>
-  <testcase name="top5gt" classname="xbox.testcases.XboxVerify" time="3.594"/>
+  <testcase name="top5gt" classname="xbox.testcases.XboxVerify" time="6.428"/>
 </testsuite>
