@@ -1,8 +1,8 @@
 -------------------------------------------------------------------------------
 Test set: TestSuite
 -------------------------------------------------------------------------------
-Tests run: 2, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 26.326 sec <<< FAILURE! - in TestSuite
-gtsearch(xbox.testcases.XboxVerify)  Time elapsed: 11.461 sec  <<< FAILURE!
+Tests run: 2, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 23.866 sec <<< FAILURE! - in TestSuite
+gtsearch(xbox.testcases.XboxVerify)  Time elapsed: 10.831 sec  <<< FAILURE!
 java.lang.AssertionError: expected [DARK SOULSâ„¢ II] but found [DARK SOULS™ II]
 	at xbox.testcases.XboxVerify.gtsearch(XboxVerify.java:84)
 
