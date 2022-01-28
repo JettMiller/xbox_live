@@ -1,0 +1,17 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 3, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 34.284 sec <<< FAILURE! - in TestSuite
+gtsearch(xbox.testcases.XboxVerify)  Time elapsed: 10.522 sec  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":"/html/body/div[1]/div[2]/div/div[1]/div/div/div[1]/h3/a"}
+  (Session info: chrome=97.0.4692.99)
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.4.0', revision: 'unknown', time: 'unknown'
+System info: host: 'PRFT-16789', ip: '10.128.206.127', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_311'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{networkConnectionEnabled=false, chrome={chromedriverVersion=96.0.4664.45 (76e4c1bb2ab4671b8beba3444e61c0f17584b2fc-refs/branch-heads/4664@{#947}), userDataDir=C:\Users\JETT~1.MIL\AppData\Local\Temp\scoped_dir9600_1215360632}, timeouts={implicit=0.0, pageLoad=300000.0, script=30000.0}, pageLoadStrategy=normal, unhandledPromptBehavior=dismiss and notify, strictFileInteractability=false, platform=ANY, proxy=Proxy(), goog:chromeOptions={debuggerAddress=localhost:60906}, webauthn:extension:credBlob=true, acceptInsecureCerts=false, browserVersion=97.0.4692.99, browserName=chrome, javascriptEnabled=true, platformName=windows, setWindowRect=true, webauthn:extension:largeBlob=true, webauthn:virtualAuthenticators=true}]
+Session ID: 2a4e73e4bf87f19c13e80a7c5f3dd8d3
+*** Element info: {Using=xpath, value=/html/body/div[1]/div[2]/div/div[1]/div/div/div[1]/h3/a}
+	at xbox.testcases.XboxVerify.gtsearch(XboxVerify.java:97)
+

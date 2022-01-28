@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="1" configfailurepolicy="continue" verbose="0" name="Failed suite [Search Test Suite]">
+  <parameter name="runningOnGrid" value="false"/>
+  <parameter name="browserFlagO" value="chrome"/>
+  <parameter name="hubHost" value="localhost"/>
+  <parameter name="hubPort" value="4458"/>
+  <test name="translate test - GoogleChrome(failed)">
+    <parameter name="runningOnGrid" value="false"/>
+    <parameter name="browserFlagO" value="chrome"/>
+    <parameter name="hubHost" value="localhost"/>
+    <parameter name="hubPort" value="4458"/>
+    <groups>
+      <run>
+        <include name="ChromeWin32"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="xbox.testcases.XboxVerify">
+        <methods>
+          <include name="gtsearch"/>
+          <include name="setUpBrowser"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- xbox.testcases.XboxVerify -->
+    </classes>
+  </test> <!-- translate test - GoogleChrome(failed) -->
+</suite> <!-- Failed suite [Search Test Suite] -->
