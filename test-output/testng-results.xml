@@ -2,7 +2,7 @@
 <testng-results skipped="0" failed="0" total="3" passed="3">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="31727" started-at="2022-01-28T17:00:26Z" finished-at="2022-01-28T17:00:58Z">
+  <suite name="Default suite" duration-ms="28858" started-at="2022-01-28T17:02:11Z" finished-at="2022-01-28T17:02:40Z">
     <groups>
       <group name="ChromeWin32">
         <method signature="XboxVerify.gtsearch()[pri:0, instance:xbox.testcases.XboxVerify@36c88a32]" name="gtsearch" class="xbox.testcases.XboxVerify"/>
@@ -15,9 +15,9 @@
         <method signature="XboxVerify.top5gt()[pri:0, instance:xbox.testcases.XboxVerify@36c88a32]" name="top5gt" class="xbox.testcases.XboxVerify"/>
       </group> <!-- IEWin32 -->
     </groups>
-    <test name="Default test" duration-ms="31727" started-at="2022-01-28T17:00:26Z" finished-at="2022-01-28T17:00:58Z">
+    <test name="Default test" duration-ms="28858" started-at="2022-01-28T17:02:11Z" finished-at="2022-01-28T17:02:40Z">
       <class name="xbox.testcases.XboxVerify">
-        <test-method status="PASS" signature="setUpBrowser(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:xbox.testcases.XboxVerify@36c88a32]" name="setUpBrowser" is-config="true" duration-ms="1467" started-at="2022-01-28T11:00:26Z" finished-at="2022-01-28T11:00:27Z">
+        <test-method status="PASS" signature="setUpBrowser(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:xbox.testcases.XboxVerify@36c88a32]" name="setUpBrowser" is-config="true" duration-ms="1418" started-at="2022-01-28T11:02:11Z" finished-at="2022-01-28T11:02:12Z">
           <params>
             <param index="0">
               <value>
@@ -43,15 +43,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpBrowser -->
-        <test-method status="PASS" signature="gtsearch()[pri:0, instance:xbox.testcases.XboxVerify@36c88a32]" name="gtsearch" duration-ms="11775" started-at="2022-01-28T11:00:27Z" finished-at="2022-01-28T11:00:39Z">
+        <test-method status="PASS" signature="gtsearch()[pri:0, instance:xbox.testcases.XboxVerify@36c88a32]" name="gtsearch" duration-ms="8991" started-at="2022-01-28T11:02:12Z" finished-at="2022-01-28T11:02:21Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- gtsearch -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:xbox.testcases.XboxVerify@36c88a32]" name="tearDown" is-config="true" duration-ms="3027" started-at="2022-01-28T11:00:39Z" finished-at="2022-01-28T11:00:42Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:xbox.testcases.XboxVerify@36c88a32]" name="tearDown" is-config="true" duration-ms="3037" started-at="2022-01-28T11:02:21Z" finished-at="2022-01-28T11:02:24Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setUpBrowser(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:xbox.testcases.XboxVerify@36c88a32]" name="setUpBrowser" is-config="true" duration-ms="1217" started-at="2022-01-28T11:00:42Z" finished-at="2022-01-28T11:00:44Z">
+        <test-method status="PASS" signature="setUpBrowser(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:xbox.testcases.XboxVerify@36c88a32]" name="setUpBrowser" is-config="true" duration-ms="1266" started-at="2022-01-28T11:02:24Z" finished-at="2022-01-28T11:02:25Z">
           <params>
             <param index="0">
               <value>
@@ -77,15 +77,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpBrowser -->
-        <test-method status="PASS" signature="open()[pri:0, instance:xbox.testcases.XboxVerify@36c88a32]" name="open" duration-ms="3533" started-at="2022-01-28T11:00:44Z" finished-at="2022-01-28T11:00:47Z">
+        <test-method status="PASS" signature="open()[pri:0, instance:xbox.testcases.XboxVerify@36c88a32]" name="open" duration-ms="3538" started-at="2022-01-28T11:02:25Z" finished-at="2022-01-28T11:02:29Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- open -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:xbox.testcases.XboxVerify@36c88a32]" name="tearDown" is-config="true" duration-ms="2926" started-at="2022-01-28T11:00:47Z" finished-at="2022-01-28T11:00:50Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:xbox.testcases.XboxVerify@36c88a32]" name="tearDown" is-config="true" duration-ms="2952" started-at="2022-01-28T11:02:29Z" finished-at="2022-01-28T11:02:32Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setUpBrowser(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:xbox.testcases.XboxVerify@36c88a32]" name="setUpBrowser" is-config="true" duration-ms="1187" started-at="2022-01-28T11:00:50Z" finished-at="2022-01-28T11:00:51Z">
+        <test-method status="PASS" signature="setUpBrowser(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:xbox.testcases.XboxVerify@36c88a32]" name="setUpBrowser" is-config="true" duration-ms="1213" started-at="2022-01-28T11:02:32Z" finished-at="2022-01-28T11:02:33Z">
           <params>
             <param index="0">
               <value>
@@ -111,11 +111,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpBrowser -->
-        <test-method status="PASS" signature="top5gt()[pri:0, instance:xbox.testcases.XboxVerify@36c88a32]" name="top5gt" duration-ms="3654" started-at="2022-01-28T11:00:51Z" finished-at="2022-01-28T11:00:55Z">
+        <test-method status="PASS" signature="top5gt()[pri:0, instance:xbox.testcases.XboxVerify@36c88a32]" name="top5gt" duration-ms="3514" started-at="2022-01-28T11:02:33Z" finished-at="2022-01-28T11:02:37Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- top5gt -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:xbox.testcases.XboxVerify@36c88a32]" name="tearDown" is-config="true" duration-ms="2931" started-at="2022-01-28T11:00:55Z" finished-at="2022-01-28T11:00:58Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:xbox.testcases.XboxVerify@36c88a32]" name="tearDown" is-config="true" duration-ms="2919" started-at="2022-01-28T11:02:37Z" finished-at="2022-01-28T11:02:40Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
