@@ -5,9 +5,9 @@
     <classes>
       <class name="xbox.testcases.XboxVerify">
         <methods>
+          <include name="gtsearch"/>
           <include name="setUpBrowser"/>
           <include name="tearDown"/>
-          <include name="top5gt"/>
         </methods>
       </class> <!-- xbox.testcases.XboxVerify -->
     </classes>

@@ -1,23 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="1" total="3" passed="2">
+<testng-results skipped="0" failed="1" total="2" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Search Test Suite" duration-ms="33859" started-at="2022-01-28T17:19:57Z" finished-at="2022-01-28T17:20:31Z">
+  <suite name="Search Test Suite" duration-ms="25570" started-at="2022-01-28T17:25:24Z" finished-at="2022-01-28T17:25:50Z">
     <groups>
       <group name="ChromeWin32">
-        <method signature="XboxVerify.gtsearch()[pri:0, instance:xbox.testcases.XboxVerify@2cb4c3ab]" name="gtsearch" class="xbox.testcases.XboxVerify"/>
-        <method signature="XboxVerify.open()[pri:0, instance:xbox.testcases.XboxVerify@2cb4c3ab]" name="open" class="xbox.testcases.XboxVerify"/>
-        <method signature="XboxVerify.top5gt()[pri:0, instance:xbox.testcases.XboxVerify@2cb4c3ab]" name="top5gt" class="xbox.testcases.XboxVerify"/>
+        <method signature="XboxVerify.gtsearch()[pri:0, instance:xbox.testcases.XboxVerify@61dc03ce]" name="gtsearch" class="xbox.testcases.XboxVerify"/>
+        <method signature="XboxVerify.top5gt()[pri:0, instance:xbox.testcases.XboxVerify@61dc03ce]" name="top5gt" class="xbox.testcases.XboxVerify"/>
       </group> <!-- ChromeWin32 -->
       <group name="IEWin32">
-        <method signature="XboxVerify.gtsearch()[pri:0, instance:xbox.testcases.XboxVerify@2cb4c3ab]" name="gtsearch" class="xbox.testcases.XboxVerify"/>
-        <method signature="XboxVerify.open()[pri:0, instance:xbox.testcases.XboxVerify@2cb4c3ab]" name="open" class="xbox.testcases.XboxVerify"/>
-        <method signature="XboxVerify.top5gt()[pri:0, instance:xbox.testcases.XboxVerify@2cb4c3ab]" name="top5gt" class="xbox.testcases.XboxVerify"/>
+        <method signature="XboxVerify.gtsearch()[pri:0, instance:xbox.testcases.XboxVerify@61dc03ce]" name="gtsearch" class="xbox.testcases.XboxVerify"/>
+        <method signature="XboxVerify.top5gt()[pri:0, instance:xbox.testcases.XboxVerify@61dc03ce]" name="top5gt" class="xbox.testcases.XboxVerify"/>
       </group> <!-- IEWin32 -->
     </groups>
-    <test name="translate test - GoogleChrome" duration-ms="33859" started-at="2022-01-28T17:19:57Z" finished-at="2022-01-28T17:20:31Z">
+    <test name="translate test - GoogleChrome" duration-ms="25570" started-at="2022-01-28T17:25:24Z" finished-at="2022-01-28T17:25:50Z">
       <class name="xbox.testcases.XboxVerify">
-        <test-method status="PASS" signature="setUpBrowser(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:xbox.testcases.XboxVerify@2cb4c3ab]" name="setUpBrowser" is-config="true" duration-ms="1720" started-at="2022-01-28T11:19:57Z" finished-at="2022-01-28T11:19:59Z">
+        <test-method status="PASS" signature="setUpBrowser(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:xbox.testcases.XboxVerify@61dc03ce]" name="setUpBrowser" is-config="true" duration-ms="1734" started-at="2022-01-28T11:25:24Z" finished-at="2022-01-28T11:25:26Z">
           <params>
             <param index="0">
               <value>
@@ -43,51 +41,19 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpBrowser -->
-        <test-method status="FAIL" signature="gtsearch()[pri:0, instance:xbox.testcases.XboxVerify@2cb4c3ab]" name="gtsearch" duration-ms="10517" started-at="2022-01-28T11:19:59Z" finished-at="2022-01-28T11:20:09Z">
-          <exception class="org.openqa.selenium.NoSuchElementException">
+        <test-method status="FAIL" signature="gtsearch()[pri:0, instance:xbox.testcases.XboxVerify@61dc03ce]" name="gtsearch" duration-ms="11456" started-at="2022-01-28T11:25:26Z" finished-at="2022-01-28T11:25:38Z">
+          <exception class="java.lang.AssertionError">
             <message>
-              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"/html/body/div[1]/div[2]/div/div[1]/div/div/div[1]/h3/a"}
-  (Session info: chrome=97.0.4692.99)
-For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
-Build info: version: '3.4.0', revision: 'unknown', time: 'unknown'
-System info: host: 'PRFT-16789', ip: '10.128.206.127', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_311'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities [{networkConnectionEnabled=false, chrome={chromedriverVersion=96.0.4664.45 (76e4c1bb2ab4671b8beba3444e61c0f17584b2fc-refs/branch-heads/4664@{#947}), userDataDir=C:\Users\JETT~1.MIL\AppData\Local\Temp\scoped_dir9600_1215360632}, timeouts={implicit=0.0, pageLoad=300000.0, script=30000.0}, pageLoadStrategy=normal, unhandledPromptBehavior=dismiss and notify, strictFileInteractability=false, platform=ANY, proxy=Proxy(), goog:chromeOptions={debuggerAddress=localhost:60906}, webauthn:extension:credBlob=true, acceptInsecureCerts=false, browserVersion=97.0.4692.99, browserName=chrome, javascriptEnabled=true, platformName=windows, setWindowRect=true, webauthn:extension:largeBlob=true, webauthn:virtualAuthenticators=true}]
-Session ID: 2a4e73e4bf87f19c13e80a7c5f3dd8d3
-*** Element info: {Using=xpath, value=/html/body/div[1]/div[2]/div/div[1]/div/div/div[1]/h3/a}]]>
+              <![CDATA[expected [DARK SOULSâ„¢ II] but found [DARK SOULS™ II]]]>
             </message>
             <full-stacktrace>
-              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"/html/body/div[1]/div[2]/div/div[1]/div/div/div[1]/h3/a"}
-  (Session info: chrome=97.0.4692.99)
-For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
-Build info: version: '3.4.0', revision: 'unknown', time: 'unknown'
-System info: host: 'PRFT-16789', ip: '10.128.206.127', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_311'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities [{networkConnectionEnabled=false, chrome={chromedriverVersion=96.0.4664.45 (76e4c1bb2ab4671b8beba3444e61c0f17584b2fc-refs/branch-heads/4664@{#947}), userDataDir=C:\Users\JETT~1.MIL\AppData\Local\Temp\scoped_dir9600_1215360632}, timeouts={implicit=0.0, pageLoad=300000.0, script=30000.0}, pageLoadStrategy=normal, unhandledPromptBehavior=dismiss and notify, strictFileInteractability=false, platform=ANY, proxy=Proxy(), goog:chromeOptions={debuggerAddress=localhost:60906}, webauthn:extension:credBlob=true, acceptInsecureCerts=false, browserVersion=97.0.4692.99, browserName=chrome, javascriptEnabled=true, platformName=windows, setWindowRect=true, webauthn:extension:largeBlob=true, webauthn:virtualAuthenticators=true}]
-Session ID: 2a4e73e4bf87f19c13e80a7c5f3dd8d3
-*** Element info: {Using=xpath, value=/html/body/div[1]/div[2]/div/div[1]/div/div/div[1]/h3/a}
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
-	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:150)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:115)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:45)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:82)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:637)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:410)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:509)
-	at org.openqa.selenium.By$ByXPath.findElement(By.java:361)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:402)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:498)
-	at org.openqa.selenium.support.events.EventFiringWebDriver$2.invoke(EventFiringWebDriver.java:104)
-	at com.sun.proxy.$Proxy7.findElement(Unknown Source)
-	at org.openqa.selenium.support.events.EventFiringWebDriver.findElement(EventFiringWebDriver.java:188)
-	at xbox.testcases.XboxVerify.gtsearch(XboxVerify.java:97)
+              <![CDATA[java.lang.AssertionError: expected [DARK SOULSâ„¢ II] but found [DARK SOULS™ II]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:494)
+	at org.testng.Assert.assertEquals(Assert.java:123)
+	at org.testng.Assert.assertEquals(Assert.java:176)
+	at org.testng.Assert.assertEquals(Assert.java:186)
+	at xbox.testcases.XboxVerify.gtsearch(XboxVerify.java:84)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -117,15 +83,15 @@ Session ID: 2a4e73e4bf87f19c13e80a7c5f3dd8d3
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:121)
 ]]>
             </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- gtsearch -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:xbox.testcases.XboxVerify@2cb4c3ab]" name="tearDown" is-config="true" duration-ms="3011" started-at="2022-01-28T11:20:09Z" finished-at="2022-01-28T11:20:12Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:xbox.testcases.XboxVerify@61dc03ce]" name="tearDown" is-config="true" duration-ms="3009" started-at="2022-01-28T11:25:38Z" finished-at="2022-01-28T11:25:41Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setUpBrowser(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:xbox.testcases.XboxVerify@2cb4c3ab]" name="setUpBrowser" is-config="true" duration-ms="1203" started-at="2022-01-28T11:20:12Z" finished-at="2022-01-28T11:20:13Z">
+        <test-method status="PASS" signature="setUpBrowser(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:xbox.testcases.XboxVerify@61dc03ce]" name="setUpBrowser" is-config="true" duration-ms="1188" started-at="2022-01-28T11:25:41Z" finished-at="2022-01-28T11:25:42Z">
           <params>
             <param index="0">
               <value>
@@ -151,45 +117,11 @@ Session ID: 2a4e73e4bf87f19c13e80a7c5f3dd8d3
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpBrowser -->
-        <test-method status="PASS" signature="open()[pri:0, instance:xbox.testcases.XboxVerify@2cb4c3ab]" name="open" duration-ms="5228" started-at="2022-01-28T11:20:13Z" finished-at="2022-01-28T11:20:18Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- open -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:xbox.testcases.XboxVerify@2cb4c3ab]" name="tearDown" is-config="true" duration-ms="3059" started-at="2022-01-28T11:20:18Z" finished-at="2022-01-28T11:20:22Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setUpBrowser(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:xbox.testcases.XboxVerify@2cb4c3ab]" name="setUpBrowser" is-config="true" duration-ms="1196" started-at="2022-01-28T11:20:22Z" finished-at="2022-01-28T11:20:23Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[chrome]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[false]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[localhost]]>
-              </value>
-            </param>
-            <param index="3">
-              <value>
-                <![CDATA[4458]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUpBrowser -->
-        <test-method status="PASS" signature="top5gt()[pri:0, instance:xbox.testcases.XboxVerify@2cb4c3ab]" name="top5gt" duration-ms="4992" started-at="2022-01-28T11:20:23Z" finished-at="2022-01-28T11:20:28Z">
+        <test-method status="PASS" signature="top5gt()[pri:0, instance:xbox.testcases.XboxVerify@61dc03ce]" name="top5gt" duration-ms="5256" started-at="2022-01-28T11:25:42Z" finished-at="2022-01-28T11:25:47Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- top5gt -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:xbox.testcases.XboxVerify@2cb4c3ab]" name="tearDown" is-config="true" duration-ms="2923" started-at="2022-01-28T11:20:28Z" finished-at="2022-01-28T11:20:31Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:xbox.testcases.XboxVerify@61dc03ce]" name="tearDown" is-config="true" duration-ms="2917" started-at="2022-01-28T11:25:47Z" finished-at="2022-01-28T11:25:50Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->

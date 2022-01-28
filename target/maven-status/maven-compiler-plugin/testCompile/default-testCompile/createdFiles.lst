@@ -7,9 +7,7 @@ util\Page.class
 util\TestData.class
 util\CustomAssertion.class
 xbox\basepages\XboxHomePage.class
-xbox\testcases\live_test.class
 util\EmailableSummaryReporter$1.class
 util\TestCaseBase.class
-xbox\testcases\xbox_live.class
 util\EmailableSummaryReporter.class
 util\Waiting.class

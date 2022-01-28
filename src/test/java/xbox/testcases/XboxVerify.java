@@ -27,7 +27,7 @@ public class XboxVerify extends TestCaseBase {
 		String user4;
 		String user5;
 
-		Scanner sc = new Scanner(new File("..\\XboxAssignment\\src\\test\\java\\xbox\\testcases\\top5gt"));
+		Scanner sc = new Scanner(new File("..\\XboxAssignment\\testdata\\top5gt"));
 		sc.useDelimiter(",");
 		user1 = sc.next();
 		user2 = sc.next();
@@ -59,7 +59,7 @@ public class XboxVerify extends TestCaseBase {
 		String game3;
 		String game4;
 		
-		Scanner sc = new Scanner(new File("..\\XboxAssignment\\src\\test\\java\\xbox\\testcases\\top4g"));
+		Scanner sc = new Scanner(new File("..\\XboxAssignment\\testdata\\top4g"));
 		sc.useDelimiter(",");
 		user = sc.next();
 		game1  = sc.next();
